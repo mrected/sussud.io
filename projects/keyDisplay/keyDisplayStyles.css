@@ -1,0 +1,46 @@
+body {
+    background-color: #123;
+}
+
+p {
+    color: #bada55;
+    text-align: center;;
+}
+
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.led-main-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.led-row{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    column-gap: 5px;
+}
+
+
+.led-col{
+    flex-basis: 10%;
+    border-radius: 25px;
+    height: 20px;
+    width: 25px;
+}
+
+.led-on {
+    background-color: #0479ff;
+    border: solid 2px rgb(12, 247, 255);
+}
+
+.led-off {
+    background-color: transparent;
+    border: none;
+}
